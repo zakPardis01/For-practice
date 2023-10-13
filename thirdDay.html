@@ -1,0 +1,136 @@
+<!-- 
+    lists in HTML - order list and unorder lists
+    tables
+    div
+    span
+    images and links
+ -->
+
+<!-- 
+    write a code to add an image with 100px height and 100px width in HTML pages - Priti
+
+    make Twitter text link which will open the twitter website when you click on it - Brandon
+
+    what is div? Natasha
+        devision used as container for other elements
+    What is span used for? Ronaldo
+
+    what is tr and td in table? Zein
+  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- HTML Semantic Tags -->
+    <!-- These are elements which describe the job they do
+         e.g. <form>, <table>, <article>, <header>, <footer> -->
+    <!-- <aside></aside> -->
+    <!-- <nav></nav> -->
+    <!-- <section></section> -->
+
+    <header>
+      <h1>Just IT Bootcamp programme</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, eos nobis
+        a assumenda quo quidem sunt quisquam sequi deleniti repudiandae impedit
+        molestiae quae veritatis odio, at iure iste mollitia illo!
+      </p>
+    </header>
+    <nav>
+      <a href="#" id="link1">Home</a>
+      <a href="#" class="link3 link5">About</a>
+      <a href="#" class="link link3">Contact</a>
+    </nav>
+    <h1 class="link link3">Heading</h1>
+
+    <footer></footer>
+
+    <!-- 
+        id - unique
+    class - 
+ -->
+
+    <!-- HTML Forms -->
+    <!-- A form uses the <form> tag (semantic tag :) ) -->
+    <!-- For each row of the form two lines of code are needed using <label> and <input>-->
+
+    <!-- <label> will be the text describing the box e.g. "First name:", it will also have a for attribute 
+             that enables it to link with the the input's id (these need to be the same)-->
+
+    <!-- <input> will have multiple attributes, these will change depending on input type.
+             Standard attributes include "type"(determines type of input), "id"(may be use by CSS or JS) 
+             and name(this will link to the label via "for") -->
+    <!-- used to groupd form elements -->
+    <fieldset style="background-color: blue">
+      <legend>Student registration</legend>
+      <form action="">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" required placeholder="Name!" /><br />
+        <label for="email">Email</label>
+        <input type="email" /><br />
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label>
+        <input type="submit" value="Save" />
+        <input type="reset" value="Clear all" />
+      </form>
+    </fieldset>
+
+    <hr />
+    <br /><br /><br /><br />
+    <hr />
+    <br /><br />
+    <!-- 
+        !TASK
+        Create a login form asking form email and password, 
+        and having Login button
+     -->
+    <input type="password" placeholder="Enter Password" />
+    <input type="checkbox" />
+    <input type="date" />
+    <input type="month" />
+    <input type="file" />
+    <input type="number" />
+    <input type="range" />
+    <input type="time" />
+    <input type="color" />
+
+    <select>
+      <option>Select country</option>
+      <option>UK</option>
+      <option>USA</option>
+      <option>Germany</option>
+    </select>
+
+    <textarea name="" id="essay" cols="40" rows="30" maxlength="10"> </textarea>
+    <p>The number of character allowed is 10!</p>
+    <br /><br /><br /><br />
+
+    <!-- 
+        instead of city and state add country which will be drop down list
+        instead of the white border have field set with caption 
+        'Registration Form'
+     -->
+
+    <label for="">Gender: </label>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" /> &nbsp;
+    <label for="female">Female</label>
+    <input type="radio" name="gender" />
+    &copy;
+    <span style="color: red; font-size: 40px">&#9745;&#128515;</span>
+    &#9745; &#128515;
+
+    <h1>Sandwiches</h1>
+    <p>
+      All our sandwiches come accompanied with chips &#127839; rest of your text
+      &#127835;
+    </p>
+  </body>
+</html>

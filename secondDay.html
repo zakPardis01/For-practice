@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second Day</title>
+  </head>
+  <body>
+    <!-- 
+What is HTML? Darshitha
+    -- 
+What is tag in HTML? Ehsan
+    <h1> Computer </h1>
+Which tag define paragraph? Madina
+<p>
+    defin the paragraph in HTML
+</p>
+Which tag define heading one? Ronaldo
+<h1> </h1>
+Is HTML case sensitive? Karolis
+ No <H1> Computer </H1>
+Which tag define HTML document's body? Natasha
+
+Which defines the least important heading? Jack
+h6
+
+ -->
+    <img
+      src="Image/download.jpg"
+      alt="Nature picture"
+      width="100"
+      height="100"
+    /><br />
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1200px-Altja_j%C3%B5gi_Lahemaal.jpg"
+      alt="Nature picture"
+      width="100"
+      height="100"
+    />
+    <h1>Heading</h1>
+    <a href="https://www.justit.co.uk" target="_self">Link</a>
+    <!-- 
+        block element
+        inline element
+        !TASK
+        Create a gallery of pictures, having 10 pictures
+        all the pictures to be the same size
+
+        2. add a picture - when you click on the picture it should open another page for you.
+
+     -->
+    <br />
+    <br />
+    <a href="https://www.justit.co.uk" target="_blank">
+      <img src="/Image/download.jpg" alt="" />
+    </a>
+    <br />
+    <br />
+    <a href="firstDay.html"> <img src="/Image/Cake.ico" /> </a> <br />
+    <br />
+    <div style="border: 5px solid">
+      <h1>London</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel nobis
+        consectetur ex. Impedit iusto distinctio dignissimos veritatis unde
+        temporibus repudiandae quae, maiores eius est, adipisci praesentium
+        porro ratione beatae sunt!
+      </p>
+    </div>
+    <div style="background-color: aqua; border: 5px solid">
+      <h1>Manchester</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta,
+        nostrum incidunt hic repellat possimus quae. Porro architecto deserunt
+        doloribus modi inventore, repudiandae perspiciatis ipsa earum sequi
+        minus repellat nesciunt atque?
+      </p>
+    </div>
+    <!-- span -->
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe iure at
+      aut non quo iste<span style="color: red"> rerum similique,</span>
+      molestiae unde quos, omnis deleniti earum aperiam. Illum, consequatur
+      impedit.
+    </p>
+    <!-- 
+        create a div, add a h1, a p and highlight (background-color) the ingredients of a basic cake each in it's own span.
+     -->
+    <div style="border: 5px solid">
+      <h1>Cake Ingredients</h1>
+      <p style="border: 5px solid">
+        <span style="background-color: aqua">eggs</span> <br />
+        <span style="background-color: blueviolet">butter</span><br />
+        <span style="background-color: aqua">flour</span>
+      </p>
+    </div>
+    <br />
+    <table border="1">
+      <tr>
+        <th>FNAME</th>
+        <th>LNAME</th>
+      </tr>
+      <tr>
+        <td>Zak</td>
+        <td>Pardis</td>
+      </tr>
+      <tr>
+        <td>Kamal</td>
+        <td><img src="/Image/Cake.ico" /></td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Picture</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Zak</td>
+        <td>Pardis</td>
+        <td>
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/009/273/280/non_2x/concept-of-loneliness-and-disappointment-in-love-sad-man-sitting-element-of-the-picture-is-decorated-by-nasa-free-photo.jpg"
+            alt=""
+            width="100"
+            height="70"
+          />
+        </td>
+      </tr>
+    </table>
+
+    <!-- add a table having four columns and at least 4 data
+(id, first name, last name, picture)
+
+-->
+    <table border="1" style="width: 300px">
+      <tr>
+        <td rowspan="2">ID</td>
+        <td colspan="2">Full Name</td>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td>Picture</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Zak</td>
+        <td>Picture</td>
+      </tr>
+    </table>
+
+    <table border="1">
+      <tr>
+        <td rowspan="2">state of health</td>
+        <td colspan="2">fasting</td>
+        <td>After Eating</td>
+      </tr>
+      <tr>
+        <td>Minimum</td>
+        <td>Maximum</td>
+        <td>2 hour after eating</td>
+      </tr>
+      <tr>
+        <td>Health</td>
+        <td>Health</td>
+        <td>Health</td>
+        <td>Health</td>
+      </tr>
+    </table>
+
+    <!-- --------------------------- -->
+
+    <!-- order / unorder list -->
+
+    <ol type="i" start="10">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ol>
+
+    <ul type="circle">
+      <li>HTML</li>
+      <li>
+        CSS
+        <ol start="10">
+          <li>
+            CSS Code1
+            <ul>
+              <li>List 1</li>
+              <li>List 1</li>
+            </ul>
+          </li>
+          <li>CSS Code2</li>
+        </ol>
+      </li>
+    </ul>
+  </body>
+</html>
